@@ -43,7 +43,7 @@ namespace _103022300056_MOD4_JURNAL_MFM
             {
                 if (produkElektronik[i].Equals(product, StringComparison.OrdinalIgnoreCase))
                 {
-                    return kodeProduk[i];
+                    return product + " Kode Produknya adalah " + kodeProduk[i];
                 }
             }
             return "Kode Produk Tidak Ditemukan : " + product;
